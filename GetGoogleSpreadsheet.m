@@ -8,13 +8,6 @@ function result = GetGoogleSpreadsheet(DOCID)
 % [result] cell array of the the values in the spreadsheet
 %
 % IMPORTANT: The spreadsheet must be shared with the "anyone with the link" option
-%
-% This has no error handling and has not been extensively tested.
-% Please report issues on Matlab FX.
-%
-% DM, Jan 2013
-%
-
 
 loginURL = 'https://www.google.com'; 
 csvURL = ['https://docs.google.com/spreadsheet/ccc?key=' DOCID '&output=csv&pref=2'];
